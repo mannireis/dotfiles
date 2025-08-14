@@ -1,0 +1,23 @@
+{
+    "margin": 5,
+    "layer": "top",
+    "position": "top",
+    "modules-left": ["sway/workspaces"],
+    "modules-center": ["cpu", "sway/window", "memory"],
+    "modules-right": ["pulseaudio", "custom/wifi", "clock"],
+
+    "sway/workspaces": {},
+
+    "cpu": {
+        "format": " {usage}%"
+    },
+
+    "memory": {
+        "format": " {used}G"
+    },
+
+    "custom/wifi": {
+        "exec": "nmcli -t -f ACTIVE,SSID dev wifi | awk -F: '$1==\"yes\"{print $2}'",
+        "interval": 5
+    }
+}

@@ -1,0 +1,7 @@
+# Set the primary font
+font_family      FiraCode Nerd Font
+font_size        14
+
+# Optional: different font for bold/italic
+bold_font        auto
+italic_font      auto

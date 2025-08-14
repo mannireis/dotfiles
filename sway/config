@@ -1,0 +1,11 @@
+# Main Sway config - just includes
+
+include ~/.config/sway/variables.conf
+include ~/.config/sway/colors.conf
+include ~/.config/sway/apps.conf
+include ~/.config/sway/outputs.conf
+include ~/.config/sway/keybindings.conf
+include ~/.config/sway/gaps.conf
+
+# Include extra configs if needed
+include /etc/sway/config.d/*

@@ -1,2 +1,2 @@
 # dotfiles
-My dot files
+My catpuccin themed dotfiles :3

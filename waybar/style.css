@@ -1,0 +1,30 @@
+* {
+    font-family: "FiraCode Nerd Font", monospace;
+    font-size: 12px;
+    background: #1e1e2e;
+    color: #cdd6f4;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#network {
+    color: #f9e2af;
+}
+
+#clock {
+    color: #f5c2e7;
+}
+
+#workspaces button {
+    color: #94e2d5;
+    background-color: #313244;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 0 2px;
+}
+
+#workspaces button.focused {
+    color: #cdd6f4;
+    border-radius: 4px;
+    background-color: #313244;
+}
